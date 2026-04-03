@@ -3,3 +3,22 @@ Basic coding tutorial| Robotics club founder | Coding projects and blog
 oddevengame is a basic programming on python,by using the codes we can find out which number is even or odd in python.
 Tutorials 
 firstly we will write if then after if we will write num % 2 == 0: ,this statement means that a number get divided by 2  now the remainder is zero so basically that means that a number is even. and the % sign means the remainder and after that we will give four space and write print ( even ) . the statement to find out the even number is complete after that we will change the paragraph and give zero space and write if and after a we will write num % 3 == 0: . this statement means that a number is divided by 3 so basically its odd and after that we will change the paragraph and give four space and write print ( odd ) . now we will press the button run and we will get tge output . if your number will be even so the output will be written as even and if your number is odd so you are output will be written as odd
+# Odd Even Game
+
+## Description
+This is a simple Python project that helps us find whether a number is odd or even.
+
+## How It Works
+In Python, we use the modulo operator `%` to find the remainder.
+
+- If a number divided by 2 gives remainder 0 → it is **even**
+- If a number divided by 2 does not give remainder 0 → it is **odd**
+
+## Code Example
+```python
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
